@@ -1,0 +1,18 @@
+<h1>Celebrities</h1>
+<hr>
+<div>
+    <a href="/celebrities/new"> => Add New Celebrity</a>
+    <hr>
+    <br>
+</div>
+<div>
+    {{#each Celebrity}}
+    <div>
+        <h2>‘{{this.name}}</h1>
+        <p>{{this.type}}</p>
+        <p>{{this.catchPhrase}}</p>
+        <hr>
+    </div>
+    {{/each}}
+</div>
+<hr>
